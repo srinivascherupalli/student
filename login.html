@@ -1,12 +1,21 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="myApp">
 	<head>
-		<title>Student Management</title>
+		<title>Verti by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/angular.min.js"></script>
+		<script src="assets/js/myApp.js"></script>
+		<script src="assets/js/controller.js"></script>
 	</head>
-	<body class="homepage">
+	<body class="homepage" ng-controller="controller">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -37,7 +46,7 @@
 							</div>
 							<div class="5u 12u(medium)">
 								<ul>
-									<li><a href="index.html" class="button alt big icon fa-arrow-circle-left">Back</a></li>
+									<li><a href="index.html" class="button alt big icon fa-arrow-circle-left" ng-click="vibrateNotify()">Back</a></li>
 								</ul>
 							</div>
 						</div>
@@ -49,15 +58,6 @@
 			
 			<div id="navToggle" style="display:none;"><a href="#navPanel" class="toggle"></a></div>
 			<div id="navPanel"><nav><a class="link depth-0" href="index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Welcome</a></nav></div>
-
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

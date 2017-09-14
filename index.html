@@ -1,13 +1,22 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="myApp">
 	<head>
 		<title>Verti by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/angular.min.js"></script>
+		<script src="assets/js/myApp.js"></script>
+		<script src="assets/js/controller.js"></script>
 	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
+	<body class="homepage" ng-controller="controller">
+		<div id="page-wrapper"> 
 
 			<!-- Header -->
 				<div id="header-wrapper">
@@ -15,7 +24,7 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1><a href="index.html">Attendance Management</a></h1>
+								<h1><a href="index.html" ng-click="beepNotify()">Attendance Management</a></h1>
 								<span>by Swetha</span>
 							</div>
 
@@ -35,12 +44,12 @@
 						<div class="row">
 							<div class="7u 12u(medium)">
 								<h2>Hi. Welcome to "Smart Learning and Attendance Management System".</h2>
-								<p>It's a free to register and maintain</p>
+								<p>It's free to register and maintain</p>
 							</div>
 							<div class="5u 12u(medium)">
 								<ul>
-									<li><a href="login.html" class="button big icon fa-arrow-circle-right">Login</a></li>
-									<li><a href="login.html" class="button alt big icon fa-arrow-circle-right" style="background-color:#629048; color:#fff;">Register</a></li>
+									<li><a href="login.html" class="button big icon fa-arrow-circle-right" ng-click="vibrateNotify()">Login</a></li>
+									<li><a href="login.html" class="button alt big icon fa-arrow-circle-right" ng-click="vibrateNotify()" style="background-color:#629048; color:#fff;">Register</a></li>
 								</ul>
 							</div>
 						</div>
@@ -55,12 +64,6 @@
 
 		<!-- Scripts -->
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+			
 	</body>
 </html>
