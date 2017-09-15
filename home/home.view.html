@@ -1,0 +1,43 @@
+﻿<!--<h1>Hi {{vm.user.firstName}}!</h1>
+<p>You're logged in!!</p>
+<h3>All registered users:</h3>
+<ul>
+    <li ng-repeat="user in vm.allUsers">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a ng-click="vm.deleteUser(user.id)">Delete</a>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><a href="#!/login" class="btn btn-primary">Logout</a></p>-->
+
+<div class="card hovercard">
+	<div class="cardheader">
+
+	</div>
+	<div class="avatar">
+		<img alt="" src="res/icon/android/icon-96-xhdpi.png">
+	</div>
+	<div class="info">
+		<div class="title">
+			<a target="_blank">{{vm.user.firstName}}</a>
+		</div>
+		<div class="desc">Mtech 2nd Year</div>
+		<div class="desc">Hyderabad</div>
+		<div class="desc">9030546506</div>
+		<p><a href="#!/login" class="btn btn-primary">Logout</a></p>
+	</div>
+	<div class="bottom">
+		<a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+			<i class="fa fa-twitter"></i>
+		</a>
+		<a class="btn btn-danger btn-sm" rel="publisher">
+			<i class="fa fa-google-plus"></i>
+		</a>
+		<a class="btn btn-primary btn-sm" rel="publisher">
+			<i class="fa fa-facebook"></i>
+		</a>
+		<a class="btn btn-warning btn-sm" rel="publisher">
+			<i class="fa fa-behance"></i>
+		</a>
+	</div>
+</div>
