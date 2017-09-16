@@ -42,6 +42,11 @@
 				noOpenerFade: true,
 				speed: 300
 			});
+			
+			$('input').on('focus', function() {
+				document.body.scrollTop = $(this).offset().top;
+			});
+			
 
 		// Off-Canvas Navigation.
 
