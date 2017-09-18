@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.swetha_app"
+        id        = "com.phonegap.coffee_bean_finder"
         version   = "1.0.0">
 
-    <name>Swetha App</name>
+    <name>Coffee Bean Finder</name>
 
     <description>
-        Swetha Student Registration Application
+        Coffee Bean Finder
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
