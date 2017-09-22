@@ -1313,7 +1313,7 @@
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: #f7f7f7;
+		background-color: #03BEA6;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
@@ -1344,7 +1344,7 @@
 	}
 
 	a {
-		color: #0090c5;
+		color: #03BEA6;
 		text-decoration: underline;
 	}
 
@@ -1470,7 +1470,7 @@
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #0090c5;
+			border-color: #03BEA6;
 		}
 
 	form input[type="text"],
@@ -1601,7 +1601,7 @@
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: #03BEA6;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1611,6 +1611,10 @@
 		cursor: pointer;
 		font-size: 1.35em;
 		padding: 0.6em 1.5em;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 	}
 
 		input[type="button"].icon:before,
@@ -2833,5 +2837,7 @@
 
 .btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
 .main{
-	background:#03BEA6 !important;
+	/*background:#03BEA6 !important;*/
 }
+
+
