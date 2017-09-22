@@ -42,6 +42,17 @@
 				noOpenerFade: true,
 				speed: 300
 			});
+			
+			$('.form-control').on('focus', function() {
+				document.body.scrollTop = $(this).offset().top;
+				console.log('hello');
+				$( "html, body" ).animate({
+				  // scroll to end of page
+				  scrollTop: $(document).height()
+				}, 800).promise().then(function() {
+				  console.log("runs once!")
+				});
+			});
 
 		// Off-Canvas Navigation.
 
